@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+h1 {
+    color: #000F37;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: #000F37;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: 	#4F4F4F;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* HEADER */
+
+header div, header h2 {
+    display: inline-block;
+}
+
+header {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.menu {
+    float: right;
+}
+
+.logo {
+    fill: #68e1fd;
+}
+
+.logo h2 {
+    color: #68e1fd;
+}
+
+/* MAIN - White Container */
+
+.white-container {
+    height: auto;
+    width: 100%;
+    
+}
+
+.text-container {
+    width: 45%;
+    display: inline-block;
+    margin: 10% 0 10% 9.5%;
+    padding: 0rem 2rem;
+    vertical-align: middle;
+}
+
+.text-container p {
+    padding: 1rem 0;
+}
+
+button {
+    width: 15rem;
+    background-color: #68e1fd;;
+    border: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.img-container {
+    width: 35%;
+    display: inline-block;
+    margin: 10% 9.5% 10% 0;
+    vertical-align: middle;
+}
+
+/* MAIN - Blue Container */
+
+.blue-container {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #68e1fd;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+.white-box {
+    width: 60%;
+    background-color: #fff;
+    margin: 0 auto;
+    
+    position: relative;
+    bottom: 5rem;
+}
+
+.services {
+    width: 45%;
+    display: inline-block;
+    margin: 0 0 0 9.5%;
+    padding: 0rem 2rem;
+    vertical-align: middle;
+}
+
+.img-services svg {
+    width: 100%;
+}
+
+.img-services {
+    width: 35%;
+    display: inline-block;
+    margin: 0 9.5% 0 0;
+    vertical-align: middle;
+}   
+
+.services li {
+    list-style-type: none;
+    vertical-align: middle;
+    line-height: 3;
+    font-weight: 600;
+    
+}
+.services svg  {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+/* FOOTER  */
+
+footer p {
+    display: inline;
+}
+
+footer i {
+    padding: 0 2rem;
+    float: right;
+}
+
+footer {
+    width: 80%;
+    margin: 5rem auto;
+}
+
+
